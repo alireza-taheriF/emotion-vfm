@@ -1,0 +1,40 @@
+# ⛔ Python cache files
+__pycache__/
+*.py[cod]
+
+# ⛔ Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ⛔ Virtual environments
+venv/
+.venv/
+env/
+ENV/
+*.env
+
+# ⛔ Model weights and serialized classifiers
+*.pt
+*.pth
+*.joblib
+*.pkl
+
+# ⛔ Feature vectors and numpy arrays (can be re-generated)
+*.npy
+
+# ⛔ OS/Editor specific
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# ⛔ Large images/logs/output files (optional)
+# Keep only necessary ones (e.g., Figure_1.png is OK)
+logs/
+*.log
+
+# ⛔ Dataset folders EXCEPT FER2013 (keep train/test)
+data/
+!data/FER2013/
+!data/FER2013/train/
+!data/FER2013/test/
+
