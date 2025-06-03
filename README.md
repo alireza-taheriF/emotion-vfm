@@ -22,10 +22,17 @@ emotion-vfm/
 ├── main.py # End-to-end pipeline
 └── README.md
 ```
+
+```bash
 git clone https://github.com/<your-username>/emotion-vfm.git
+```
+```bash
 cd emotion-vfm
 pip install -r requirements.txt
+```
+```bash
 python main.py
+```
 
 📊 Results
 The classifier achieved ~58% accuracy on the FER2013 dataset. Here is the confusion matrix:
