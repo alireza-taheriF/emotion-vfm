@@ -1,3 +1,5 @@
+# classifier/train_classifier.py
+
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix
@@ -6,8 +8,9 @@ from sklearn.preprocessing import StandardScaler
 import joblib
 import os
 
+# Train and evaluate the model
 def train_and_evaluate(X, y, save_path='classifier/mlp_model.joblib'):
-    #standardize the features
+    # Standardize the features
     scaler = StandardScaler()
     X_scaled = scaler.fit_transform(X)
 
